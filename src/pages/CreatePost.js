@@ -3,7 +3,7 @@ import { useTitle } from "../hooks/useTitle";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { db, auth } from "../firebase/config";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 
 export const CreatePost = () => {
