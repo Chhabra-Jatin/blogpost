@@ -16,7 +16,6 @@ export const HomePage = () => {
   const [sortBy, setSortBy] = useState("Select"); // newest | oldest | liked
 
   useTitle("Home");
-  const postsRef = useRef(collection(db, "posts"));
 
   // Auth listener
   useEffect(() => {
